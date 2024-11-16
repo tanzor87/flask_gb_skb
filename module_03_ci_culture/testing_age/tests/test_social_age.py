@@ -44,3 +44,4 @@ class TestSocialAge(unittest.TestCase):
         age = -5
         with self.assertRaises(ValueError):
             get_social_status(age)
+            
